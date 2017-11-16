@@ -1,0 +1,29 @@
+header {
+    background: #ffffff;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 5px solid #cccccc;
+}
+#name {
+    background: #4aaaa4;
+    display: inline-block;
+    height: 50px;
+    margin: 0 auto;
+    vertical-align: middle;
+    color: white;
+}
+header nav {
+    position: relative;
+    display: inline-block;
+}
+header nav li {
+    float: left;
+    margin-right: 10px; 
+}
+header nav li a {
+    text-decoration: none;
+}
+.main {
+    margin-top: 150px;
+}

@@ -1,5 +1,13 @@
+html {
+    height: 100%;
+}
 body {
-    background-image: url(../images/fresh_snow.png)
+    background-image: url(../images/fresh_snow.png);
+    height: 100%;
+}
+.wrapper {
+    position: relative;
+    min-height: 100%;
 }
 header {
     background: #ffffff;
@@ -113,15 +121,20 @@ main p {
 .sidebar img {
     margin-left: 18px;
 }
+
 footer {
     position: absolute;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background: #666666;
     clear: both;
-    vertical-align: middle;
     bottom: 0;
+    left: 0;
     text-align: center;
+    border-top: 7px solid #4aaaa4; 
+}
+footer div {
+    padding-top: 31px;
 }
 footer p {
     text-align: center;

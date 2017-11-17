@@ -6,42 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>T.A.C. Portfollio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-     <header>
-        <div id="name">
-             <h1>Troy A. Crawford</h1>
+    <div class="wrapper">
+        <header>
+            <div class="headerContent">
+                <div id="name">
+                    <h1>Troy A. Crawford</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Portfollio</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="main">
+            <h1>Contact</h1>
+            <form>
+                <p class="form">Name</p>
+                <input type="text" placeholder="John Smith" name="name">
+                <p class="form">Email</p>
+                <input type="text" placeholder="example@gmail.com" name="email">
+                <p class="form">Message</p>
+                <textarea name="comment"> </textarea>
+                <input type="submit">   
+            </form>
+        </section>
+        <div class="sidebar">
+            <h2>Connect With Me</h2>
+            <a href=""><img src="assets/images/github.png" alt="Link to Github Account"></a>
+            <a href=""><img src="assets/images/github.png" alt="Link to Linkedin Page"></a>
+            <a href=""><img src="assets/images/github.png" alt="Link to Stack Overflow Account"></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Portfollio</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="main">
-        <h1>Contact</h1>
-        <form>
-            <p class="form">Name</p>
-            <input type="text" placeholder="John Smith" name="name">
-            <p class="form">Email</p>
-            <input type="text" placeholder="example@gmail.com" name="email">
-            <p class="form">Message</p>
-            <textarea name="comment"> </textarea>
-            <input type="submit">   
-        </form>
-    </section>
-    <div class="sidebar">
-        <h2>Connect With Me</h2>
-        <a href=""><img src="assets/images/github.png" alt="Link to Github Account"></a>
-        <a href=""><img src="assets/images/github.png" alt="Link to Linkedin Page"></a>
-        <a href=""><img src="assets/images/github.png" alt="Link to Stack Overflow Account"></a>
+        <footer>
+            <div>
+                <p>Copyright 2017 Troy A. Crawford</p>
+            </div>
+        </footer>
     </div>
-    <footer>
-        <div>
-            <p>Copyright 2017 Troy A. Crawford</p>
-        </div>
-    </footer>
 </body>
 </html>

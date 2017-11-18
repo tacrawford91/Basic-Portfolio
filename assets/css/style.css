@@ -44,17 +44,22 @@ header nav {
     display: inline-block;
     font-family:'Georgia', Times, Times New Roman, serif;
     vertical-align: middle;
-    padding-left: 426px;
+    padding-left: 350px;
 }
 header nav li {
     float: left;
     margin-left: 30px; 
-    color:#777777
+    color:#777777;
+    border-left: solid 1px #777777;
+}
+#headerli {
+    border: none;s
 }
 header nav li a {
     text-decoration: none;
     color: #777777;
     font-size: 20px;
+    padding-left: 22px;
 }
 .content {
     width: 960px;
@@ -140,4 +145,37 @@ footer p {
     text-align: center;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+form {
+    height: 460px;
+    padding-left: 26px;
+}
+form p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 21px;
+    padding-left: 0px;
+    padding-bottom: 3px;
+}
+input {
+    margin-top: 6px;
+    width: 600px;
+    height: 31px;
+}
+textarea {
+    margin-top: 6px;
+    width: 600px;
+    height: 200px;
+}
+button {
+    background-color: #4aaaa4; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 26px;
+    margin-bottom: 18px;
 }

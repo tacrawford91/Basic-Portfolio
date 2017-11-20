@@ -69,8 +69,8 @@ header nav li a:hover {
 }
 .content {
     width: 960px;
-    height: 800px;
-    margin: 0 auto;
+    min-height: 1000px;
+    margin: 0 auto -80px auto;
 }
 .main {
     background: #ffffff;
